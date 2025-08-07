@@ -106,20 +106,6 @@ A modern, responsive restaurant food ordering website built with Vue.js 3, featu
    yarn preview
    \`\`\`
 
-## 📁 Project Structure
-
-\`\`\`
-src/
-├── assets/          # Static assets and global styles
-├── components/      # Reusable Vue components
-│   ├── layout/      # Header, Footer, Navigation
-│   ├── sections/    # Page sections
-│   └── ui/          # UI components (Cart, Modals)
-├── stores/          # Pinia state management
-├── views/           # Page components
-└── router/          # Route definitions
-\`\`\`
-
 ## 🎯 Key Components
 
 ### State Management (Pinia)
