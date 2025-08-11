@@ -9,6 +9,7 @@
       </router-view>
     </main>
     <Footer />
+    <SpeedInsights />
   </div>
 </template>
 
@@ -16,6 +17,7 @@
 import { onMounted } from 'vue'
 import Navbar from './components/layout/Navbar.vue'
 import Footer from './components/layout/Footer.vue'
+import { SpeedInsights } from '@vercel/speed-insights/vue'
 
 onMounted(() => {
   // Any app initialization code
